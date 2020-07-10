@@ -9,7 +9,7 @@ const app = express();
 //allow cross-origin request
 app.use(cors());
 
-mongoose.connect(''your url');
+mongoose.connect('your url');
 mongoose.connection.once('open', () => {
     console.log("MongoDB connected...");
 });
