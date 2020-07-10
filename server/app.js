@@ -9,7 +9,7 @@ const app = express();
 //allow cross-origin request
 app.use(cors());
 
-mongoose.connect('mongodb+srv://siddharth:brityourwrit@graphql.rbq3g.mongodb.net/GraphQL?retryWrites=true&w=majority');
+mongoose.connect(''your url');
 mongoose.connection.once('open', () => {
     console.log("MongoDB connected...");
 });
